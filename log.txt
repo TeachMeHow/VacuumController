@@ -1,0 +1,95 @@
+2025-04-02 23:12:34,947 : Decoding Error
+Traceback (most recent call last):
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 31, in valid
+    decoded_info = decode(code)
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 27, in decode
+    return {"secret" : split_list[0], "timestamp_ms" : int(split_list[1]), "time_value_min" : int(split_list[2])}
+                                                       ~~~^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '/a1743628354947'
+2025-04-02 23:12:34,949 : Generate another code or contact administrator
+Traceback (most recent call last):
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 62, in <module>
+    valid(code)
+    ~~~~~^^^^^^
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 31, in valid
+    decoded_info = decode(code)
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 27, in decode
+    return {"secret" : split_list[0], "timestamp_ms" : int(split_list[1]), "time_value_min" : int(split_list[2])}
+                                                       ~~~^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '/a1743628354947'
+2025-04-02 23:12:43,154 : Decoding Error
+Traceback (most recent call last):
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 31, in valid
+    decoded_info = decode(code)
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 27, in decode
+    return {"secret" : split_list[0], "timestamp_ms" : int(split_list[1]), "time_value_min" : int(split_list[2])}
+                                                       ~~~^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '/a1743628363154'
+2025-04-02 23:12:43,156 : Generate another code or contact administrator
+Traceback (most recent call last):
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 62, in <module>
+    valid(code)
+    ~~~~~^^^^^^
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 31, in valid
+    decoded_info = decode(code)
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 27, in decode
+    return {"secret" : split_list[0], "timestamp_ms" : int(split_list[1]), "time_value_min" : int(split_list[2])}
+                                                       ~~~^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '/a1743628363154'
+2025-04-02 23:16:40,066 : Decoding Error
+Traceback (most recent call last):
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 31, in valid
+    decoded_info = decode(code)
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 27, in decode
+    return {"secret" : split_list[0], "timestamp_ms" : int(split_list[1]), "time_value_min" : int(split_list[2])}
+                                                       ~~~^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '/a1743628600066'
+2025-04-02 23:16:40,068 : Generate another code or contact administrator
+Traceback (most recent call last):
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 62, in <module>
+    valid(code)
+    ~~~~~^^^^^^
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 31, in valid
+    decoded_info = decode(code)
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 27, in decode
+    return {"secret" : split_list[0], "timestamp_ms" : int(split_list[1]), "time_value_min" : int(split_list[2])}
+                                                       ~~~^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '/a1743628600066'
+2025-04-02 23:27:16,011 : Decoding Error
+Traceback (most recent call last):
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 40, in valid
+    decoded_info = decode(code)
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 36, in decode
+    return {"secret" : split_list[0], "timestamp_ms" : int(split_list[1]), "time_value_min" : int(split_list[2])}
+                                                       ~~~^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '/a1743629236011'
+2025-04-02 23:27:16,013 : Generate another code or contact administrator
+Traceback (most recent call last):
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 71, in <module>
+    valid(code)
+    ~~~~~^^^^^^
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 40, in valid
+    decoded_info = decode(code)
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 36, in decode
+    return {"secret" : split_list[0], "timestamp_ms" : int(split_list[1]), "time_value_min" : int(split_list[2])}
+                                                       ~~~^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '/a1743629236011'
+2025-04-02 23:31:02,612 : Decoding Error
+Traceback (most recent call last):
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 40, in valid
+    decoded_info = decode(code)
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 36, in decode
+    return {"secret" : split_list[0], "timestamp_ms" : int(split_list[1]), "time_value_min" : int(split_list[2])}
+                                                       ~~~^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '/a1743629462612'
+2025-04-02 23:31:02,614 : Generate another code or contact administrator
+Traceback (most recent call last):
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 71, in <module>
+    valid(code)
+    ~~~~~^^^^^^
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 40, in valid
+    decoded_info = decode(code)
+  File "c:\Users\szymo\source\repos\VacuumController\main.py", line 36, in decode
+    return {"secret" : split_list[0], "timestamp_ms" : int(split_list[1]), "time_value_min" : int(split_list[2])}
+                                                       ~~~^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '/a1743629462612'

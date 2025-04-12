@@ -1,0 +1,6 @@
+[project]
+name="vacuum_controller"
+version="0.0.1"
+dependencies = [
+    
+]

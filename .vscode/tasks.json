@@ -1,0 +1,52 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "scp-copy-to-remote",
+        "type": "shell",
+        "command": "scp -r ./* pi@rpi:~/VacuumController/",
+        "problemMatcher": [],
+        "presentation": {
+          "reveal": "always"
+        }
+      },      
+      {
+        "label": "ssh-connect",
+        "type": "shell",
+        "command": "ssh rpi",
+        "problemMatcher": [],
+        "presentation": {
+          "reveal": "always"
+        }
+      },
+      {
+        "label": "samba-mount",
+        "type": "shell",
+        "command": "ssh rpi 'sudo mount.cifs //TURBOPECE/${workspaceFolderBasename} /home/pi/VacuumController -o user=pi,guest'",
+        "problemMatcher": [],
+        "dependsOn":[],
+        "presentation": {
+          "reveal": "always"
+        }
+      },
+      {
+        "label": "ssh-run-python",
+        "type": "shell",
+        "command": "ssh user@remote-host 'cd VacuumController && source .pi_env/bin/activate && python3 -m debugpy --listen --port 5678 --wait test.py'",
+        "dependsOn": [],
+        "problemMatcher": [],
+        "presentation": {
+          "reveal": "always"
+        }
+        },
+      {
+        "label": "ssh-run-remote-command",
+        "type": "shell",
+        "command": "ssh user@remote-host 'cd /remote/path/project && python3 -m ptvsd --host 0.0.0.0 --port 5678 --wait your_script.py'",
+        "problemMatcher": [],
+        "presentation": {
+          "reveal": "always"
+        }
+      }
+    ]
+  }

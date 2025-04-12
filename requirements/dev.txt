@@ -1,0 +1,28 @@
+-r common.txt
+autocommand==2.2.2
+certifi==2025.1.31
+charset-normalizer==3.4.1
+colorama==0.4.6
+colorclass==2.2.2
+debugpy==1.8.13
+docopt==0.6.2
+idna==3.10
+iniconfig==2.1.0
+jaraco.context==6.0.1
+jaraco.functools==4.1.0
+jaraco.text==4.0.0
+keyboard==0.13.5
+liquidcrystal_i2c @ https://github.com/pl31/python-liquidcrystal_i2c/archive/master.zip#sha256=c861024f2e3c10d9fb31efcdd86787eaa29fdcd27b537082dbae56c6036eb2fb
+more-itertools==10.6.0
+packaging==24.2
+pillow==11.1.0
+platformdirs==4.3.7
+pluggy==1.5.0
+pytest==8.3.5
+qrcode==8.1
+readchar==4.2.1
+requests==2.32.3
+setuptools==78.1.0
+terminaltables==3.1.10
+urllib3==2.3.0
+wheel==0.45.1
