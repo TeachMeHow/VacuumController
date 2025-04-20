@@ -1,6 +1,6 @@
 import gpiotest
 from threading import Thread, Event, Timer
-import time
+import keyboard
 
 secret = "1234"
 def timer(e):
