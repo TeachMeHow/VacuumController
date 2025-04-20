@@ -8,12 +8,7 @@ import configparser
 import threading
 import readchar
 from StoppableTimer import StoppableTimer
-
-
-
-
-
-
+import keyboard
 
 class CodeGenerator:
     def  __init__(self, secret):
@@ -141,7 +136,7 @@ class VacuumController:
                 self.start()
             if c == "3":
                 self.stop()
-            if str(c).upper != "C":
+            if str(c).upper == "C":
                 break
             print(self.state)
     
@@ -164,14 +159,15 @@ class Device:
         _time_left = 0
         _timer = None
         
-TIME = 5
+TIME = 10
 timer = StoppableTimer(TIME)
 event = timer.get_event()
 start = time.perf_counter()
-timer.start()
+print("Press C to stop\n1 - READY\n2 - RUN\n3 - STOP")
 event.wait()
 elapsed = time.perf_counter() - start
 error = abs(TIME - elapsed) / TIME
+
 
 
 
